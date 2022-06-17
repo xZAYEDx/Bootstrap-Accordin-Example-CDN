@@ -1,0 +1,26 @@
+.accordion-button::after {
+	background-image: url("./images/icon-arrow-down.svg");
+font-size: 20px;
+}
+.accordion-button:not(.collapsed)::after {
+	background-image: url("./images/icon-arrow-down.svg");
+font-size: 20px;
+}
+
+
+.card{
+	border-color: red;
+	width: 600px;
+	margin: 120px auto;
+
+}
+
+.accordion-button:not(.collapsed){
+			background-color: white;
+		border: none;
+}
+.accordion-button{
+	background-color: white;
+		border: none;
+
+}
